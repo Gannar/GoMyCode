@@ -1,187 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="Portfolio" content="width=device-width, initial-scale=1.0">
-  <title>Gannar Meryam Portfolio</title>
- <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      background-color: #4CAF50;
-      color: white;
-      padding: 2em;
-      text-align: center;
-    }
-    nav {
-      background-color: #333;
-      overflow: hidden;
-    }
-    nav a {
-      float: left;
-      color: white;
-      padding: 14px 20px;
-      text-decoration: none;
-      text-align: center;
-    }
-    nav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    section {
-      padding: 2em;
-    }
-    footer {
-      background-color: #4CAF50;
-      color: white;
-      text-align: center;
-      padding: 1em 0;
-      width: 100%;
-      bottom: 0;
-    }
-    .skills-list, .projects-table {
-      margin: 1em 0;
-    }
-    .skills-list li {
-      margin-bottom: 0.5em;
-    }
-    form input, form textarea, form button {
-      display: block;
-      width: 100%;
-      margin: 0.5em 0;
-      padding: 0.5em;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            padding: 20px 0;
+            margin: 0;
+            background-color: #ecf0f1;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+
+        
+
+
+        strong {
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin: 30px 0;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #3498db;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: #2980b9;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Gannar Meryam</h1>
-    <p>Senior Angular & Full Stack Developer | UI/UX Specialist</p>
-  </header>
+    <h1>Delicious Bites Menu</h1>
 
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#work">Work</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <h2>Appetizers</h2>
+    <ul>
+        <li>
+            <strong>Caprese Salad</strong>
+            <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p>
+        </li>
+        <li>
+            <strong>Stuffed Mushrooms</strong>
+            <p>Button mushrooms stuffed with garlic, herbs, and cheese, baked to golden perfection.</p>
+        </li>
+        <li>
+            <strong>Bruschetta</strong>
+            <p>Toasted bread topped with a mixture of diced tomatoes, garlic, and basil.</p>
+        </li>
+    </ul>
 
-  <main>
-    <section id="home">
-      <h2>Home</h2>
-      <p>Welcome to my personal portfolio! <br>I'm A SENIOR ANGULAR & FULL STACK DEVELOPER
-UI/UX SPECIALISTS <br>croll down to learn more about me and my work.</p>
-    </section>
+    <h2>Main Courses</h2>
+    <ul>
+        <li>
+            <strong>Grilled Salmon</strong>
+            <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>
+        </li>
+        <li>
+            <strong>Chicken Alfredo</strong>
+            <p>Grilled chicken breast served over creamy Alfredo pasta, topped with Parmesan cheese.</p>
+        </li>
+        <li>
+            <strong>Vegetarian Lasagna</strong>
+            <p>Layers of pasta, ricotta cheese, and fresh vegetables baked with a rich tomato sauce.</p>
+        </li>
+    </ul>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Hello! I'm A highly skilled Senior Angular and Full Stack Developer with 7+ years of experience designing and
-implementing scalable web applications. Expert in optimizing performance through state management and
-efficient coding also a proven leader in mentoring teams.<br>
-Check out the video below to know more about my journey:
+    <h2>Desserts</h2>
+    <ul>
+        <li>
+            <strong>Chocolate Fondue</strong>
+            <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>
+        </li>
+        <li>
+            <strong>Tiramisu</strong>
+            <p>A classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.</p>
+        </li>
+        <li>
+            <strong>Fruit Tart</strong>
+            <p>A buttery tart shell filled with creamy custard and topped with fresh seasonal fruits.</p>
+        </li>
+    </ul>
 
-</p>
-      <video controls>
-        <source src="video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </section>
-
-    <section id="work">
-      <h2>My Work</h2>
-      <ul>
-        <ol>Senior Angular/UI Developer</ol>
-		<p><li>Migrated a legacy financial platform to Angular, boosting performance by 40%.</li>
-<li>Developed and integrated backend RESTful APIs using Spring Boot, enhancing application
-scalability.</li>
-<li>Designed and implemented microservices architecture for financial systems, improving modularity.</li>
-
-<li>Ensured accessibility compliance for Angular 17-18 user interfaces.</li></p>
-
-    <ol>Lead Angular Developer</ol>
-		<p><li>Enhanced user experience by integrating AngularJS for customer services.</li>
-<li>Enabled real-time inventory tracking via RESTful API integration.</li>
-<li>Reduced development time by 20% through reusable Angular Material components.</li>
-
-<li>Streamlined CI/CD processes using Git and Jenkins.</li></p>
-
-    <ol>AngularJS Specialist</ol>
-		<p><li>Reduced page load times by 25% with lazy loading and code splitting.</li>
-<li>Collaborated with cross-functional teams</li>
-<li>Led a team of four developers, providing technical guidance and conducting Agile stand-ups.</li>
-
-<li>Improved project efficiency with iterative development and timely sprint reviews.</li></p>
-
-    <ol>Fullstack web developer</ol>
-		<p><li>Created a shared Angular component library, increasing code reusability.</li>
-<li>Optimized backend systems using PHP and Symfony for scalability.</li>
-<li>Implemented responsive and cross-browser-compatible front-end components.</li>
-
-<li>Integrated Agile principles, ensuring faster iterations and alignment with business goals.</li></p>
-
- 
-      </ul>
-    </section>
-
-    <section id="resume">
-      <h2>Resume</h2>
-      <table border="1" cellpadding="10" cellspacing="0">
-        <thead>
-          <tr>
-            <th>Year</th>
-            <th>Role</th>
-            <th>Company</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>(Dec 2023 – Present)</td>
-            <td>Senior Angular/UI Developer</td>
-            <td>SIMAC, Tunisia</td>
-          </tr>
-          <tr>
-            <td>(Oct 2022 – Nov 2023)</td>
-            <td>Lead Angular Developer</td>
-            <td>SIMAC, Tunisia</td>
-          </tr>
-		   <tr>
-            <td>(Jan 2019 – Nov 2022)</td>
-            <td>AngularJS Specialist</td>
-            <td>SIMAC, Tunisia</td>
-          </tr>
-		   <tr>
-            <td>(Nov 2016 – Dec 2019)</td>
-            <td>Fullstack Web Developer</td>
-            <td>Perspectives, Tunisia</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
-
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2024 Gannar Meryam. All rights reserved.</p>
-  </footer>
+    <p><a href="contact.html">Contact us for reservations</a></p>
 </body>
 </html>
